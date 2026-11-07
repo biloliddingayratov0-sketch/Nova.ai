@@ -1,0 +1,35 @@
+NOVA AI — ULTIMATE MASTER AI SAAS PLATFORM (v3.0)
+==================================================
+
+1) Backend Ishga Tushirish:
+   Terminalda (PowerShell yoki CMD):
+   cd C:\Users\User\Desktop\NOVA-AI\backend
+   .\venv\Scripts\activate
+   uvicorn app.main:app --port 8000 --reload
+
+   Backend API: http://127.0.0.1:8000
+   API Docs: http://127.0.0.1:8000/docs
+
+2) Frontend Ishga Tushirish:
+   Boshqa terminalda yoki VS Code orqali:
+   - VS Code ichida frontend/index.html ni ochib "Live Server" tugmasini bosing (http://127.0.0.1:5500)
+   - YOKI Python orqali:
+     cd C:\Users\User\Desktop\NOVA-AI\frontend
+     python -m http.server 5500
+
+3) Testlarni Yurgizish (24 ta avtomatlashtirilgan test):
+   cd C:\Users\User\Desktop\NOVA-AI
+   backend\venv\Scripts\python.exe -m pytest backend\tests\ -v
+
+4) Tizimda mavjud barcha imkoniyatlar:
+   - AI Chat (ChatGPT / Claude darajasidagi yordamchi)
+   - Code Assistant & Sandbox Runner (Python & JS kodlarni xavfsiz ishga tushirish)
+   - Image Generator (Flux & DALL-E 3)
+   - Image Editor (Tuzatilgan! Haqiqiy AI yordamida rasmni o'zgartirish)
+   - AI Video Generator (Text-to-Video & Image-to-Video, MP4 yuklab olish)
+   - Voice Studio (Ovoz sintezi, tezlik, o'zbek & ingliz tili, STT)
+   - Music Generator (Original garmonik musiqalar, janrlar, kayfiyatlar)
+   - Audio Studio (Qirqish, ovoz balandligi, format konvertatsiyasi)
+   - My Creations (Barcha yaratilgan fayllarni boshqarish kutubxonasi)
+   - Subscription & Payments (Click, Payme, Uzum Bank va Sandbox sinov rejimi)
+   - Admin Panel (Foydalanuvchilarni boshqarish, rollar, kreditlar va audit loglar)

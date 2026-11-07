@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+openai
+python-dotenv
+python-multipart
+pillow
+sqlalchemy
+psycopg[binary]
+pwdlib[argon2]
+python-jose[cryptography]
+email-validator
+slowapi
+alembic
+pytest
+httpx
+pytest-asyncio
